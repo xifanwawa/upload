@@ -1,16 +1,20 @@
-
+/**
+ * æ·»åŠ ä¸€ä¸ªæ³¨é‡Š
+ * @author Administrator
+ *
+ */
 public class Test {
 	public Test(){
-		System.out.println("¹¹Ôì·½·¨");
+		System.out.println("ï¿½ï¿½ï¿½ì·½ï¿½ï¿½");
 	}
 	
 	public static void method1(){
-		System.out.println("¾²Ì¬·½·¨");
+		System.out.println("ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½");
 		Test test = new Test();		
 		test.method2();
 	}
 	
 	public void method2(){
-		System.out.println("³ÉÔ±·½·¨");
+		System.out.println("ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½");
 	}
 }
